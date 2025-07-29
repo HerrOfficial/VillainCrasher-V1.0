@@ -550,7 +550,7 @@ if (mode === "Forclose") {
 }
 StartZenn();
 app.listen(3000, '0.0.0.0', () => {
-  console.log("🌐 Web Aktif Di : https://shiro-ourgalaxy.lexczalok.xyz:3000/");
+  console.log("🌐 Web Aktif Di : http://shiro-ourgalaxy.lexczalok.xyz:3000/");
 });
 app.get("/api/ping", (req, res) => {
   const status = JSON.parse(fs.readFileSync("./status.json", "utf8"));
